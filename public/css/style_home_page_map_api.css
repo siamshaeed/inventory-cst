@@ -1,0 +1,151 @@
+
+    /*
+* Always set the map height explicitly to define the size of the div element
+* that contains the map.
+*/
+#map {
+    height: 100%;
+}
+
+/*
+ * Optional: Makes the sample page fill the window.
+ */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#description {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#infowindow-content .title {
+    font-weight: bold;
+}
+
+#infowindow-content {
+    display: none;
+}
+
+#map #infowindow-content {
+    display: inline;
+}
+
+.pac-card {
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+.pac-card h2{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    color: #040410;
+}
+
+#pac-container {
+    padding-bottom: 12px;
+    /*margin-right: 12px;*/
+}
+#pac-container img{
+    position: absolute;
+    margin-top: 33px;
+    margin-left: 13px;
+}
+
+.pac-controls {
+    display: inline-block;
+    padding: 5px 11px;
+}
+
+.pac-controls label {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#pac-input {
+        border: 2px solid #E8E8F5;
+        box-sizing: border-box;
+        border-radius: 8px;
+        font-size: 15px;
+        margin-top: 18px;
+        width: 100%;
+        height: 52px;
+        outline: none;
+        text-overflow: ellipsis;
+        padding: 0 1em;
+        padding-left: 35px;
+        margin-bottom: 18px;
+}
+#pac-input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #575768;
+}
+
+
+
+#title {
+    color: #fff;
+    background-color: #4d90fe;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 6px 12px;
+}
+
+.loc-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #040410;
+}
+#radius-box {
+    /* box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08); */
+    font-size: 15px;
+    /* border-radius: 20px; */
+    border: 0;
+    margin-left: 2px;
+    margin-top: 10px;
+    width: 350px;
+    height: 12px;
+    text-overflow: ellipsis;
+    /* padding: 0 1.5em; */
+    outline: none;
+}
+.range-slider__range {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #FFFF;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+.range-slider__range:hover {
+    opacity: 1;
+}
+/* .range-slider__range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 38.26px;
+    height: 22px;
+    border: 0;
+    background: url('images/logoset/slider.svg');
+    cursor: pointer;
+}
+.range-slider__range::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+} */

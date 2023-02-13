@@ -1,0 +1,3 @@
+
+{{-- order date --}}
+{{ $date }}
